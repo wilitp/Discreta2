@@ -35,15 +35,17 @@ Por lo tanto hemos probado que en este caso que la longitud aumenta.
 
 Digamos que el primer lado que falta es $\overrightarrow{x_ix_{i+1}}$.
 
-El lado $\overrightarrow{x_ix_{i+1}}$ puede no estar porque el lado que representa en el network original esta saturado y es forward o vacio y es backward. Pero eso sería absurdo, pues no es posible usar ese lado en NA y por lo tanto sería imposible que se llene / dessature para si estar en NA'. 
+El lado $\overrightarrow{x_ix_{i+1}}$ puede no estar porque el lado que representa en el network original esta saturado y es forward o vacio y es backward. En cuyo caso, tenemos que en la construcción de NA', usamos el lado $\overrightarrow{x_{x+1}x_i}$ y claramente $d{f}(x_{i+1}) \lt d(x_i)$.
 
-La única opción que nos queda entonces es que el lado no esté porque $d{f}(x_{i+1}) \le d(x_i)$. 
+La otra opción que nos queda entonces es que el lado no esté porque $d{f}(x_{i+1}) = d(x_i)$. 
+De todas formas vale:
+$$d{f}(x_{i+1}) \le d(x_i)$$
 
 Entonces tenemos 
 
  $$d_f(x_{i+1}) \le d_f(x_i) \le d_{f'}(x_i) = i \lt i + 1 = d_{f'}(x_{i+1})$$
 $$d_f(x_{i+1}) \lt d_{f'}(x_{i+1})$$
-En este caso caso es claro que la distancia aumenta, pues 
+Entonces es claro que la distancia aumenta, pues 
 $$d_f(t) = d_f(x_{i+1}) + b_{f}(x_{i+1})$$
 $$ \le d_f(x_{i+1}) + b_{f'}(x_{i+1})$$
 $$ \lt d_{f'}(x_{i+1}) + b_{f'}(x_{i+1})$$

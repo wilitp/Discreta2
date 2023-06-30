@@ -4,6 +4,9 @@
 - Enunciamos que la longitud de los sucesivos networks auxiliares crece.
 - Primero mostramos los aspectos generales de la complejidad de algoritmos "tipo Dinic"
 - Luego vemos cuánto cuesta conseguir un flujo bloqueante en cada implementación
+- Dinitz: Vemos cuanto cuesta ver que borrar en cada poda(n) + cuanto cuesta borrar en general(2m).
+- even: Planteamos que la corrida son palabras A+(R|I) y vemos cuantas palabras puede haber(m) y cuanto cuesta cada palabra(O(n))
+- Ambas tienen entonces costo O(mn)
 
 ## Prueba
 Como sabemos que los networks auxiliares crecen en longitud, tenemos que a lo sumo abrán $n$ networks auxiliares.
@@ -41,3 +44,38 @@ Por lo tanto la complejidad total de Dinitz es
 $$n * (O(m) + CFB) = O(n * (m+CFB)) = O(mn^2)$$
 ### Even
 
+Para analizar la complejidad de even nos conviene dar el pseudocódigo:
+
+```python
+g = 0
+stopflag = 1
+while(stopflag)
+	p = [s]
+	x = s
+	while(x!=t) and (stopflag)
+		if R+(x) != empty: avanzar(x)
+		else if (x != s): retroceder(x)
+		else: stopflag = 0
+	if(x == t): incrementar()
+return g
+```
+
+Una vez encontrado un camino, **incrementar() es O(n)**.
+la complejidad de **avanzar() y retroceder() es O(1)**
+
+Si denotamos avanzar como A, retroceder como R e incrementar(e inicializar el la siguiente iteración) como I, entonces cada ejecución de CFB es una palabra que contiene As, Bs e Is.
+
+Cada corrida podemos separarla en segmentos de la forma AAAA...X, donde X es R o I. 
+
+En ambos casos (X = R ó I) se borra un lado al final de la palabra, por lo tanto hay a lo sumo m palabras.
+
+La complejidad de cada palabra está dada por la cantidad de As del principio y la complejidad de X. 
+
+**Como máximo, podemos tener n As**
+
+Si X = R, entonces tenemos $O(n)$ por cada palabra
+Si X = I, entonces tenemos $O(n + n) = O(n)$ por cada palabra
+
+Como por cada corrida hay a lo sumo m palabras y el costo de cada una es O(n), tenemos que la complejidad de CFB en dinic even es O(mn)
+
+Por lo tanto la complejidad de dinic-even es $O(mn^2)$
