@@ -46,7 +46,3 @@ Pero entonces
 $$d_k(z) = d_k(x) + 1 \gt (d_k(z) + 1) + 1$$
 $$0 \gt 2$$
 Absurdo. Lo único que asumismos hasta ahora fue que $A$ no era vacío, y por lo tanto lo es.
-
-## Notas
-Por qué $d_k(z) = d_k(x) + 1$?
-- Porque si bien tendríamos sólo que $d_k(z) \le d_k(x) + 1$ si tuvieramos que z es $f_k$FF vecino de x, sabemos también en ese punto de la demostración que en el paso k ELEGIMOS un camino s ... xz ... t y por lo tanto la longitud de s ... xz es la mínima posible.

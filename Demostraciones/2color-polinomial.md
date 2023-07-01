@@ -10,7 +10,13 @@ si al terminar de colorear, encontramos que hay 2 vértices vecinos $v$ y $z$ qu
 
 $$d(w, v) + d(v, z) + d(z, w)$$
 $$d(w, v) + 1 + d(z, w)$$
-si tomamos módulo 2 a esta suma:
+
+**Observación:$d(w,v) \equiv d(w,z) (mod2)$**: 
+prueba:
+$$d(x,v) \equiv d(x,z) mod \ 2$$
+$$d(x,w) + d(w,v) \equiv d(x,w) + d(w,z) mod \ 2$$
+$$d(w,v) \equiv d(w,z) mod \ 2$$
+si tomamos módulo 2 a la suma de antes:
 $$d(w, v) + 1 + d(z, w) mod 2$$
 $$(d(w, v) mod 2) + 1 + (d(z, w) mod 2) mod 2$$
 $$(d(w, v) mod 2) + 1 + (d(w, v) mod 2) mod 2$$

@@ -17,6 +17,7 @@ Pero todavía tenemos que tener en cuenta que para cada vez que extendemos en 1 
 Sea CM el costo de un cambio de matriz y T la máxima cantidad de cambios de matriz necesarios para agregar un lado, **el costo total del algoritmo es**:
 
 $$O(n^2) + O(n) * (O(n^2) + CM * T)$$
+**Aclaración:** Los cambios de matriz están entre medio de cada búsqueda, **no se hace una búsqueda por cada cambio de matriz, sino que se pausa y se continúa ante cada cambio de matriz**. 
 
 ### CM
 CM consiste en
@@ -65,37 +66,4 @@ La complejidad queda:
 $$O(n^2) + O(n) * (O(n^2) + CM * T)$$
 $$O(n^2) + O(n) * (O(n^2) + O(n) * O(n))$$
 $$O(n^2) + O(n^3) + O(n^3) = O(n^3)$$
-
-### Problemon inconcluso
-Según las filminas del profe, la cuenta de la complejidad total del húngaro es:
-$$O(n^2) + O(n) * (O(n^2) + CM * T)$$
-
-Pero, en la última parte, estamos considerando que hacemos una única búsqueda $O(n^2)$. Esto no es cierto y yo creo que la cuenta debería ser:
-$$O(n^2) + O(n) * ((O(n^2) + CM) * T)$$
-
-con esta cuenta estamos contando una búsqueda luego de cada cambio de matriz, que es lo que hacemos en realidad.
-
-**El problema no está en la complejidad n^4**, nos da el mismo resultado. **El problema está en la complejidad mejorada** que al aplicar esta nueva cuenta, no nos da de todas formas
-
-Reemplazando CM por $O(n)$ y todas las otras igual, incluso con nuestras mejoras la cuenta queda:
-
-$$O(n^2) + O(n) * ((O(n^2) + O(n^2)) * O(n))$$
-$$O(n^2) + ((O(n^4) + O(n^3))) = O(n^4)$$
-**La complejidad no mejora.**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
