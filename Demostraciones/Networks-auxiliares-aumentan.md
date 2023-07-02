@@ -35,16 +35,14 @@ Por lo tanto hemos probado que en este caso que la longitud aumenta.
 
 Digamos que el primer lado que falta es $\overrightarrow{x_ix_{i+1}}$.
 
-El lado $\overrightarrow{x_ix_{i+1}}$ puede no estar porque el lado que representa en el network original esta saturado y es forward o vacio y es backward. En cuyo caso, tenemos que en la construcción de NA', usamos el lado $\overrightarrow{x_{x+1}x_i}$ y claramente $d{f}(x_{i+1}) \lt d(x_i)$.
+Como es el primer lado que falta, entonces el camino $x0, x1, \dots, x_i$ si está en NA y por lo tanto $d_f(x_i) = i$.
 
-La otra opción que nos queda entonces es que el lado no esté porque $d{f}(x_{i+1}) = d(x_i)$. 
-De todas formas vale:
-$$d{f}(x_{i+1}) \le d(x_i)$$
+Dado que por E-K sabemos que $d_f(x_{i+1}) \le d_{f'}(x_{i+1})$, asumamos el caso $d_f(x_{i+1}) = d_{f'}(x_{i+1})$.
 
-Entonces tenemos 
+Si este fuera el caso, tenemos que $x_i$ y $x_{i+1}$ están en niveles consecutivos, pero no existe el lado $\overrightarrow{x_ix_{i+1}}$. Deducimos entonces que el lado $\overrightarrow{x_ix_{i+1}}$ representa un lado saturado forward del N original o un lado vacío backward. Sabemos entonces que la única forma de que este lado esté presente en NA', es que durante la construcción de $f'$, usemos un lado $\overrightarrow{x_{i+1}x_i}$, pero tampoco puede existir en NA, porque no sería legal dados los niveles. Por lo tanto queda descartado $d_f(x_{i+1}) = d_{f'}(x_{i+1})$.
 
- $$d_f(x_{i+1}) \le d_f(x_i) \le d_{f'}(x_i) = i \lt i + 1 = d_{f'}(x_{i+1})$$
-$$d_f(x_{i+1}) \lt d_{f'}(x_{i+1})$$
+Nos queda entonces que $d_f(x_{i+1}) \lt d_f'(x_{i+1})$
+
 Entonces es claro que la distancia aumenta, pues 
 $$d_f(t) = d_f(x_{i+1}) + b_{f}(x_{i+1})$$
 $$ \le d_f(x_{i+1}) + b_{f'}(x_{i+1})$$

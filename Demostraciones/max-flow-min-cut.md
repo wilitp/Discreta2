@@ -19,7 +19,7 @@ Y queda probada la ida y la vuelta entre todos.
 ## Prueba
 ### 1 => 2
 
-Fácil, $v(f) = cap(S) \le v(g) \forall g \text{ flujo}$
+Fácil, $v(f) = cap(S) \ge v(g) \forall g \text{ flujo}$
 
 ### 2 => 3
 
@@ -29,10 +29,10 @@ $$g(\overrightarrow{xy}) =
 \left\{
 	\begin{array}{ll}
 		f(\overrightarrow{xy})  & \mbox{si } \overrightarrow{xy} \in p \\
-		f(\overrightarrow{xy}) + \epsilon & \mbox{caso contrario } 
+		f(\overrightarrow{xy}) + \mathcal E & \mbox{caso contrario } 
 	\end{array}
 \right.$$
-En particular habrían lados $\overrightarrow{sx}$  y $\overrightarrow{yt}$ en $p$ y por lo tanto $v(g) = v(f) + epison$. Entonces no sería maximal f. 
+En particular habrían lados $\overrightarrow{sx}$  y $\overrightarrow{yt}$ en $p$ y por lo tanto $v(g) = v(f) + \mathcal{E}$. Entonces no sería maximal f. 
 
 ### 3 => 1
 Si no hay caminos f-aumentantes, probaremos que existe un corte S tal que cap(S) = v(f).

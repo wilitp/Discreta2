@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "9667e10a87921837",
+    "type": "split",
+    "children": [
+      {
+        "id": "71ccb511c1761173",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97a3a8bf53ee5ba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5780363e8be7c80e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8237b0181a6f30e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74097f5c67616a31",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b94d8635ab7795b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db1844b6c6b14f4f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fe42621876d37d0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1150e9417f740bb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c968f0a30ed20d67",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MachineLearning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "11cfb9d0e1baf516",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MachineLearning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b76fdc8f0f784678",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "58cad0fcca05d7bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MachineLearning.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "97a3a8bf53ee5ba2",
+  "lastOpenFiles": [
+    "Pasted image 20230701123035.png",
+    "Pasted image 20230701131755.png",
+    "Pasted image 20230701131204.png",
+    "Pasted image 20230615175402.png",
+    "Pasted image 20230614233416.png",
+    "Pasted image 20230614200919.png",
+    "Pasted image 20230613104003.png",
+    "Pasted image 20230612120203.png",
+    "Pasted image 20230611231520.png",
+    "Readme.md",
+    "Demostraciones/3color-np-completo.md",
+    "Demostraciones/cota-hamming.md",
+    "Demostraciones/comp-ek.md"
+  ]
+}
