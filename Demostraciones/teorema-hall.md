@@ -1,6 +1,6 @@
 Sea $G = (X \cup Y, E)$ un grafo bipartito, 
 
-$$|S| \le \Gamma(S), \forall S \subset X => \exists \text{ matching completo}$$
+$$|S| \le \Gamma(S), \forall S \subset X \iff \exists \text{ matching completo}$$
 
 ## Estructura de prueba
 Vemos la contrarecíproca y usamos lo que sabemos de Edmonds-Karp. 
@@ -9,6 +9,7 @@ Vemos la contrarecíproca y usamos lo que sabemos de Edmonds-Karp.
 - Vemos que E-K agrega primero a algunos de la izquierda(S0) y esos agregan a sus vecinos a la derecha(T1).
 - Luego vemos que esos vecinos de la derecha agregarán exáctamente la misma cantidad de vértices a la izquierda(S1). Esto se da generalmente.
 - entonces hacemos las cuentas y vemos que $|S| = |S_0| + |S - S_0| = |S_0| + |T| = |S_0| + |\Gamma(s)| > |\Gamma(s)|$
+- Para la vuelta, usamos el matching para ver que en Gamma de S hay como mínimo tantos vértices como en S(hay uno por cada x en S, ya que no los estamos contando dos veces) y por lo tanto se cumple la condición.
 
 ## Prueba
 
@@ -31,3 +32,7 @@ $$= |S_0| + (|T|)$$
 $$= |S_0| + (|\Gamma(S)|)$$
 $$> |\Gamma(S)|$$
 Queda probado por contrarrecíproca
+
+Ahora la vuelta.
+
+Si tenemos un matching completo, entonces para cualquier $S \subseteq X$, tenemos que para cada $x \in X, !\exists l \in E_M$, donde $E_M$ son los lados de algún matching completo M. Como M es matching, tenemos que ningún x aparece en dos lados de este, y por lo tanto tenemos que $|S| \le |E_{M_S}| \le |\Gamma(S)|$.
