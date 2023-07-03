@@ -82,7 +82,7 @@ Para S, sabemos que FB elimina a $y$ luego de enviarle flujo si lo hemos saturad
 Al igual que para S, cuando devolvemos por un lado y este lado se vacía, entonces borramos a $y$ de $M(x)$. En principio podríamos ver a $y$ devuelta en $M(x)$ si este le volviera a envar; pero esto no es posible ya que $y$ no le enviaría nada a un vértice bloqueado como. **Por lo tanto $V \le m$**
 
 ### P
-Cuando hacemos FB, solo el último lado que vemos es capaz de no ser saturado y terminar de balancear D(x), **hay a lo sumo 1 P por Forward Balance**. Por lo tanto $P \le FB$. Cuál es la cantidad de FB? A lo sumo $(n-2)$ por ola. P es entonces $(n-2= * O(n) = O(n^2)$
+Cuando hacemos FB, solo el último lado que vemos es capaz de no ser saturado y terminar de balancear D(x), **ocurre a lo sumo una vez por Forward Balance**. Por lo tanto $P \le FB$. Cuál es la cantidad de FB? A lo sumo $(n-2)$ **por ola**. P es entonces $n-2 * O(n) = O(n^2)$
 
 ### Q
 Cuando hacemos BB, solo un lado de los que miramos es capaz de no ser vaciado y por lo tanto hay uno solo(a lo sumo) por ola hacia atras por vértice. Q es entonces $(n-2= * O(n) = O(n^2)$

@@ -10,14 +10,11 @@ $$|C| \le \frac{2^n}{\sum^{t}_{k=0} {n \choose k}}$$
 - Concluimos la cota
 
 ## Prueba
-
-Sea $A$ el conjunto $\{w : w \in \{0, 1\}^n \land \exists v\in C : d(v, w) \le t\}$
-
-Y sea $B_i$ el la bola $\{w : w \in \{0, 1\}^n \land d(v_i, w) \le t\}$ donde $v_i$ es la i-ésima palabra del código.
+Sea $B_i$ el la bola $\{w : w \in \{0, 1\}^n \land d(v_i, w) \le t\}$ donde $v_i$ es la i-ésima palabra del código.
 
 También podemos verlo como la bola de radio $t$ alrededor de una palabra del código.
 
-Es claro que $A = \bigcup_{i=1}^{|C|} B_i$
+Y sea $A = \bigcup_{i=1}^{|C|} B_i$
 
 Tenemos que las bolas son disjuntas, pues de no serlo entonces el código no corregiría $t$ errores. Además tenemos, como C corrige t errores, que en cada bola hay una única palabra del código.
 

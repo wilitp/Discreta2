@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning.md",
+                "file": "Demostraciones/teorema-ciclicos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning.md",
+                "file": "Demostraciones/teorema-ciclicos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning.md",
+                "file": "Demostraciones/teorema-ciclicos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning.md"
+                "file": "Demostraciones/teorema-ciclicos.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "97a3a8bf53ee5ba2",
   "lastOpenFiles": [
+    "MachineLearning.md",
     "Pasted image 20230701123035.png",
     "Pasted image 20230701131755.png",
     "Pasted image 20230701131204.png",
