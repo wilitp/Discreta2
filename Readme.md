@@ -1,6 +1,6 @@
-Lista de cosas que pueden tomarse en los examenes de julio/agosto 2023 de la parte teórica que dio Daniel. Milagro subirá sobre su parte.
-
-Ademas de estos teoremas, en Diciembre/Febrero/Marzo pueden agregarse otros.
+# Resumen Matemática Discreta 2 2023
+## Cómo usar el repo:
+**No leer desde Github**, re renderizan mal los `.md` por la sintáxis de Latex que uso. Leerlo clonando el repo, y abriéndolo como una vault de [Obsidian](https://obsidian.md/). Ya hay en el repo archivos de configuración específicos de Obsidian para que funcionen los diagramas de Excalidraw.
 
 ## Teórico Daniel
 1. [Edmonds-karp](./Demostraciones/comp-ek.md)
