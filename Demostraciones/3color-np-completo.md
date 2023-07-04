@@ -22,7 +22,7 @@ Por otro lado, unas "garras", que consisten en los $a$s y $e$s que dijimos arrib
 ![[3color-np-completo 2023-07-01 16.47.13.excalidraw]]
 Con estas garras simbolizamos cada disjunción, no hay conexión entre garras, solo entre los dedos de las garras y $s$
 
-Ahora vamos con los "lados extra". Con estos lados representaremos cuál es el literal l1, l2 y l3 en cada garra, uniendo $e_{k,j}v_k$, si $l_{k,j} = x_k$ o $e_{k,j}\overline{v_k}$, si $l_{k,j} = \overline{x_k}$. Aparte habrá un lado entre s y t
+Ahora vamos con los "lados extra". Con estos lados representaremos cuál es el literal l1, l2 y l3 en cada garra, uniendo $e_{k,j}v_k$, si $l_{k,j} = x_i$ o $e_{k,j}\overline{v_k}$, si $l_{k,j} = \overline{x_i}$. Aparte habrá un lado entre s y t
 
 ![[3color-np-completo 2023-07-01 17.04.28.excalidraw]]
 
@@ -76,7 +76,7 @@ Sea $c : V -> \{0,1,2\}$, definimos $b_i = 1 \iff c(v_{x_i}) = c(s)$
 
 Sea $l : c(v_l) = c(s)$ 
 Tenemos que si $l = x_i$, entonces $c(v_{x_i}) = c(s)$ y por lo tanto $l(\vec b) = x_i(\vec b) = 1$
-Ahora, si tenemos que si $l = \overline{x_i}$, entonces $c(x_i) \ne c(v_{\overline{x_i}}) = c(s)$ y por lo tanto $l(\vec b) = 1 - x_i(\vec b) = 1 - 0 = 1$
+Ahora, si tenemos que si $l = \overline{x_i}$, entonces $c(v_{x_i}) \ne c(v_{\overline{x_i}}) = c(s)$ y por lo tanto $l(\vec b) = 1 - x_i(\vec b) = 1 - 0 = 1$
 
 En cualquier caso, probamos que si dentro de un $D_1$, existe $l : c(v_l) = c(s)$ entonces $D_i(\vec b) = 1$ y si además esto es verdad para todo de $D_j$ entonces $B(\vec b) = 1$.
 

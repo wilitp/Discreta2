@@ -15,7 +15,7 @@ Ademas de estos teoremas, en Diciembre/Febrero/Marzo pueden agregarse otros.
 10. [Si G es bipartito entonces índice cromático es Delta.](./Demostraciones/teorema-indice-cromatico.md)
 11. [Húngaro](./Demostraciones/comp-hungaro.md)
 12. [Cota de Hamming y probarlo](./Demostraciones/cota-hamming.md)
-13. [delta del codigo es cardinal de minimo conjunto de columnas LD de H](./Demostraciones/delta-columnas-h.md)
+13. [Delta del codigo es cardinal de minimo conjunto de columnas LD de H](./Demostraciones/delta-columnas-h.md)
 14. [Teorema fundamental de códigos cíclicos](./Demostraciones/teorema-ciclicos.md)
 15. [3SAT es NP-completo](./Demostraciones/3SAT-np-completo.md)
 16. [3-COLOR es NP-completo.](./Demostraciones/3color-np-completo.md)

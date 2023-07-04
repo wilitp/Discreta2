@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "71ccb511c1761173",
+        "id": "c63d4246756cd2e3",
         "type": "tabs",
         "children": [
           {
-            "id": "97a3a8bf53ee5ba2",
+            "id": "2b6aa7126717ae7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Demostraciones/teorema-ciclicos.md",
+                "file": "Demostraciones/teorema-indice-cromatico.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Demostraciones/teorema-ciclicos.md",
+                "file": "Demostraciones/teorema-indice-cromatico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Demostraciones/teorema-ciclicos.md",
+                "file": "Demostraciones/teorema-indice-cromatico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Demostraciones/teorema-ciclicos.md"
+                "file": "Demostraciones/teorema-indice-cromatico.md"
               }
             }
           }
@@ -143,11 +143,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "97a3a8bf53ee5ba2",
+  "active": "2b6aa7126717ae7d",
   "lastOpenFiles": [
+    "Demostraciones/teorema-indice-cromatico.md",
+    "Demostraciones/teorema-ciclicos.md",
     "MachineLearning.md",
     "Pasted image 20230701123035.png",
     "Pasted image 20230701131755.png",
