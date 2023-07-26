@@ -37,7 +37,7 @@ Veamos cada caso:
 Tenemos que $f_k(\overrightarrow{xz}) = 0$ y   $f_{k+1}(\overrightarrow{xz}) \gt 0$ por lo que vimos de la vecindad de z a x en cada paso. Por lo tanto de k a k+1 ENVIAMOS flujo de x a z.
 
 - $\overrightarrow{zx}$
-Tenemos que $f_k(\overrightarrow{zx}) = c(\overrightarrow{xz})$ y   $f_{k+1}(\overrightarrow{xz}) \lt c(\overrightarrow{xz})$ por lo que vimos de la vecindad de z a x en cada paso. Por lo tanto de k a k+1 DEVOLVEMOS flujo de x a z.
+Tenemos que $f_k(\overrightarrow{zx}) = c(\overrightarrow{zx})$ y   $f_{k+1}(\overrightarrow{zx}) \lt c(\overrightarrow{zx})$ por lo que vimos de la vecindad de z a x en cada paso. Por lo tanto de k a k+1 DEVOLVEMOS flujo de x a z.
 
 En **ambos casos** la longitud del camino que usamos es mímina y por lo tanto 
 $$d_k(z) = d_k(x) + 1$$
@@ -45,4 +45,4 @@ Pero entonces
 
 $$d_k(z) = d_k(x) + 1 \gt (d_k(z) + 1) + 1$$
 $$0 \gt 2$$
-Absurdo. Lo único que asumismos hasta ahora fue que $A$ no era vacío, y por lo tanto lo es.
+Absurdo. Lo único que asumimos hasta ahora fue que $A$ no era vacío, y por lo tanto lo es.

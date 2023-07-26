@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c63d4246756cd2e3",
+        "id": "2839288646de7435",
         "type": "tabs",
         "children": [
           {
-            "id": "2b6aa7126717ae7d",
+            "id": "7660b393687232c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Demostraciones/teorema-indice-cromatico.md",
+                "file": "Demostraciones/Propiedad-de-las-distancias.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Demostraciones/teorema-indice-cromatico.md",
+                "file": "Demostraciones/Propiedad-de-las-distancias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Demostraciones/teorema-indice-cromatico.md",
+                "file": "Demostraciones/Propiedad-de-las-distancias.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Demostraciones/teorema-indice-cromatico.md"
+                "file": "Demostraciones/Propiedad-de-las-distancias.md"
               }
             }
           }
@@ -147,7 +147,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2b6aa7126717ae7d",
+  "active": "7660b393687232c4",
   "lastOpenFiles": [
     "Demostraciones/teorema-indice-cromatico.md",
     "Demostraciones/teorema-ciclicos.md",
